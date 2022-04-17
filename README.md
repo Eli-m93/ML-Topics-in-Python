@@ -12,3 +12,7 @@ Contains code that explains the motivation of these dimension reduction techninu
 
 # Sample_splitting_cross_val:
 Info on motivating why we sample split and what cross validation is.
+
+# Decision Trees
+Info on CART, Random Forests, Boosting + Bagging, ADABoosted Trees
+Also check out the "Austin Animal" project which uses tree based methods to prediction adoption.
