@@ -262,7 +262,7 @@
     "In more detail:\n",
     "* Remember that you pick an algorithm $\\mathcal{A}$. $\\mathcal{A}$ has two components that matter here - the algorithm itself (OLS, Logistic, Tress, etc), and the hyperparameters (variables chosen, depth, exponential terms, etc...). \n",
     "* The chosen algorithm will have an expected classifier/model we call $\\bar{h}(x)$, that no matter how much data you have, it will always take test point $x$ and output $\\bar{h}(x)$\n",
-    "* Imagine the true relationship between $x$ and $y$ follows some relationship $f$ and that the algorithm or hyperparameter you chose is just poorly equipped to explain such a relationship (like $x$ is age and $y$ is ability to life heavy objects and you picked linear regression with no polynomial terms)\n",
+    "* Imagine the true relationship between $x$ and $y$ follows some relationship $f$ and that the algorithm or hyperparameter you chose is just poorly equipped to explain such a relationship (like $x$ is age and $y$ is ability to lift heavy objects and you picked linear regression with no polynomial terms)\n",
     "* In this case no matter what you do in terms of data available, train test split, etc... the error is driven by the poor choice in model choice."
    ]
   },
